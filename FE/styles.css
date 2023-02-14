@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-image:  url(/FE/images/zero.png);
+background-repeat: no-repeat;
+/* background-color: linear-gradient(240.51deg, rgba(52, 138, 199, 0.93) -30.38%, rgba(7, 32, 44, 0.85) 114.23%); */
+background-color: #20262E;
+
+}
+
+.header {
+  display: flex;
+ width: 100%;
+ height: 200px;
+  align-items: center; 
+justify-content: space-around;
+}
+
+.header-h1 {
+display: flex;
+color: #6f6b6d;
+font-size: 2.6em; 
+margin-left: -105px;
+text-shadow: 4px 4px 6px rgb(235, 5, 63);
+
+} 
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  justify-content:space-evenly;
+ width: 550px;
+ align-items: center;
+ color: #6eb3b3;
+ font-size: 1.6em;
+cursor: progress;
+}
+
+.img-h2 {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.img-nike {
+  padding-right: 50px;
+}
+
+
+h2{
+  font-size:9em;
+  padding-left: 100px;
+  color: #6eb3b3;
+}
+
+.h2-h3 h3{
+color: #6eb3b3;
+text-align: center;
+font-size: 1.8em;
+padding-top: 50px;
+}
+
+.button-click {
+  border: none;
+  width: 200px;
+  height: 60px;
+  font-size: 0.8em;
+  text-shadow: 0px 0.1em 0px rgb(166, 255, 127);
+  color: #425a55;
+  border-radius: 20px;
+  background-color: rgba(89, 131, 252, 1);
+  background-image: linear-gradient(0deg, rgba(89, 131, 252, 1) 0%, rgba(4, 243, 149, 1) 70%);
+  cursor: progress;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 100px auto 0;
+  font-size: 30px;
+  width: fit-content;
+  transition: .3s;
+  background: linear-gradient(to right, #04f70d, #f801c6, #e26969, #75f65f);
+  background-size: 0 10px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  cursor: progress;
+}
+a:hover {
+  background-size: 100% 9px;
+}
+
+.a-butt {
+ padding: 30px;
+ 
+}
+
+.all-but {
+  margin-right: 300px;
+}
+
+.footer-1 {
+  font-size: 47px;
+  color: gray;
+  padding-left: 130px;
+
+}
+
+
